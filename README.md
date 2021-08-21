@@ -18,7 +18,9 @@ Run the following command to view near real-time streaming logs:
 `func azure functionapp logstream <APP_NAME> `
 
 
+At the end delete resource group by using below command:
 
+`az group delete --name java-functions-group`
 
 for detail description please visit :
 https://docs.microsoft.com/en-us/azure/azure-functions/create-first-function-cli-java?tabs=cmd%2Cazure-cli%2Cbrowser
